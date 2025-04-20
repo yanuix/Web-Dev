@@ -1,0 +1,124 @@
+
+
+
+
+/* Basic body styling */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: white;
+}
+
+/* Header section styling */
+.header {
+  background: #17072b; /* Dark purple */
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  padding: 20px 0 10px;
+  font-size: 36px;
+  border-bottom: 6px solid white;
+  display: inline-block;
+}
+
+/* Navigation bar */
+.navbar {
+  margin-top: 10px;
+}
+
+/* Navigation links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+/* Hover effect on nav links */
+.navbar a:hover {
+  color: plum;
+}
+
+/* Main content layout */
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left side */
+.left {
+  flex: 2;
+}
+
+.left h2 {
+  font-size: 24px;
+  color: black;
+  border-bottom: 4px solid black;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.left p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+}
+
+.left img {
+  width: 650px;
+  margin-top: 10px;
+}
+
+/* Right side */
+.right {
+  flex: 1;
+  background: #172d67; /* Dark blue */
+  padding: 15px;
+  color: white;
+}
+
+.right h2 {
+  font-size: 22px;
+  border-bottom: 4px solid white;
+  margin-bottom: 10px;
+}
+
+.right ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.right ul li {
+  margin-bottom: 15px;
+}
+
+/* Mini-gallery images */
+.images {
+  display: flex;
+  gap: 10px;
+}
+
+.images img {
+  flex: 1;
+  height: 100px;
+  object-fit: cover;
+  width: 120px;
+}
+
+/* Footer styling */
+.footer {
+  background: #8c15e9; /* Bright purple */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 16px;
+}

@@ -1,0 +1,35 @@
+
+/* Body styling: center the content on the page */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the video wrapper container */
+.video-wrapper {
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  padding: 30px 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Styling for the video section title */
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333; /* Dark gray text */
+}
+
+/* Styling for the video player */
+video {
+  width: 400px;
+  height: 500px;
+  border-radius: 8px; /* Rounded video edges */
+}

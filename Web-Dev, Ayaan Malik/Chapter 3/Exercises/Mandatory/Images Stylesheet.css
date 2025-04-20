@@ -1,0 +1,48 @@
+/* General page styling */
+body {
+    font-family: Arial;
+    background: #121212; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #D4AF37; /* Gold color */
+    margin-bottom: 30px;
+}
+
+/* Gallery container */
+.gallery {
+    display: flex; 
+    justify-content: center; /* Center the images */
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+/* Each image card */
+.image-card {
+    width: 300px;
+    margin: 0;
+}
+
+/* Image styling inside card */
+.image-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Crop nicely without distortion */
+    border: 3px solid #E03C31; /* Red border */
+    border-radius: 5px;
+    filter: grayscale(30%) contrast(110%); /* Visual effect */
+    display: block;
+}
+
+/* Caption text below image */
+.image-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #aaa;
+}

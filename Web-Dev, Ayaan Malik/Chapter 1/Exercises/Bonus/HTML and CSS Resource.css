@@ -1,0 +1,53 @@
+/* Basic body styling */
+body {
+    font-family: Arial; /* Default font */
+    margin: 0;           /* Remove default margins */
+    background: #f0f0f0; /* Light gray background */
+}
+
+/* Overall page container */
+.page {
+    width: 90%;
+    margin: 0 auto; /* Center the page */
+}
+
+/* Top header section */
+.top {
+    background: #333;    /* Dark background */
+    color: white;        /* White text */
+    padding: 20px;
+    text-align: center;  /* Center align text */
+}
+
+/* Navigation links inside top section */
+.links a {
+    color: white;        /* White link color */
+    margin: 0 10px;      /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Content area styling */
+.content {
+    padding: 20px 0;
+}
+
+/* Section (HTML/CSS) styling */
+.part {
+    margin-bottom: 30px;
+}
+
+/* Each item (examples inside parts) */
+.item {
+    background: white;   /* White background */
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Light border */
+}
+
+/* Bottom footer styling */
+.bottom {
+    background: #333;    /* Dark background */
+    color: white;        /* White text */
+    text-align: center;
+    padding: 10px;
+}

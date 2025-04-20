@@ -1,0 +1,76 @@
+
+/* Basic page setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Nice gradient */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+}
+
+/* Main game container styling */
+.game-container {
+  text-align: center;
+  background-color: #ffffff22; /* Semi-transparent white */
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* RGB value display */
+#rgb-value {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Options container */
+#options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Each color choice */
+.color-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border: 3px solid transparent;
+}
+
+/* Hover effect for color boxes */
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+/* Feedback text */
+#feedback {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Restart button */
+#restart-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none; /* Hidden until game over */
+}
+
+/* Hover effect for restart button */
+#restart-btn:hover {
+  background-color: #0097a7;
+}
